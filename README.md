@@ -106,7 +106,6 @@ rails server
 
 I am always looking for ways to improve my project. If you have any suggestions or ideas, I would love to hear from you.
 
-**Hein Thant**
 👤 **Uchechi Nwaka**
 
 - GitHub: [@uchexm](https://github.com/uchexm)
