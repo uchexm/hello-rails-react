@@ -1,166 +1,112 @@
 <a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-# 📗 Table of Contents
-
-# 📖 [Hello Rails React App] <a name="about-project"></a>
-
-
-**[This poject was built to implement a connection between a Ruby on Rails back-end and React front-end.
-Understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"> 
-</a>
-
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://reactjs.org/">Ruby</a></li>
-    <li><a href="https://reactjs.org/">Ruby on Rails</a></li>
-    <li><a href="https://reactjs.org/">JavaScript</a></li>
-  </ul>
+<summary>Table of Contents</summary>
+
+- [👋 Greeting App](#-greeting-app)
+  - [🧰 Tech Stack  ](#-tech-stack--)
+  - [✨ Key Features  ](#-key-features--)
+  - [📘 Getting Started  ](#-getting-started--)
+    - [📋 Prerequisites](#-prerequisites)
+    - [📂 Setup](#-setup)
+    - [📥 Installation](#-installation)
+    - [💾 Database](#-database)
+    - [💻 Usage](#-usage)
+  - [👨‍🚀 Author  ](#-author--)
+  - [🎯 Future Features  ](#-future-features--)
+  - [🤝 Contribution  ](#-contribution--)
+  - [💖 Show Your Support  ](#-show-your-support--)
+  - [🙏 Acknowledgements](#-acknowledgements)
+  - [📜 License ](#-license-)
 </details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+# 👋 Greeting App
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[Create API endpoint]**
-- **[Send API data to React Frontend]**
-- **[Learn more about frontend-backend implementation]**
+The Greeting App is a simple web application built to demonstrate the implementation of a connection between a Ruby on Rails back-end and a React front-end. It generates random greetings and serves as a learning tool for understanding the integration between these two technologies.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## 🧰 Tech Stack  <a name="tech-stack"></a>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Not available at the moment
+- Front end: React
+- State management: Redux Toolkit
+- Back end: Ruby on Rails
+- Database: PostgreSQL
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+## ✨ Key Features  <a name="key-features"></a>
 
-## 💻 Getting Started <a name="getting-started"></a>
+- Random Greetings: The app generates a random greeting each time it is loaded
+- React and Redux: The front end is built using React, and API calls are made using Redux
+- API: The back end is built using Rails, creating an API endpoint to generate a random greeting message
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-To get a local copy up and running, follow these steps.
+## 📘 Getting Started  <a name="getting-started"></a>
 
-### Prerequisites
+To run this project locally, you'll need to follow these steps.
 
-  -Ruby
-  -Rails
-  -Node package manager (npm)
-  -Code Editor
-<!--
-Example command:
+### 📋 Prerequisites
+
+Make sure you have the following installed on your machine:
+- [Ruby 3.1.3 or higher](https://www.ruby-lang.org/en/)
+- [Rails 7.0.4 or higher](https://rubyonrails.org/)
+- [PostgreSQL 15.2 or higher](https://www.postgresql.org/)
+
+### 📂 Setup
+
+Clone this repository to your desired foler.
 
 ```sh
- gem install rails
+cd my-project
+git clone git@github.com:uchexm/hello-rails-react.git
 ```
- -->
 
-### Setup
+### 📥 Installation
 
-Enter this url: git@github.com:uchexm/hello-rails-react.git in your web browser.
-Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
-Select the download Zip option from drop-down menu.
-Once the download is complete you will be able to access my project locally.
-<!--
-Example commands:
+Install the required gems with:
 
-```bash
-$ git clone git@github.com:uchexm/hello-rails-react.git
+```sh
+bundle install
 ```
---->
 
-### Install
+Install node dependencies with:
 
-Install this project with:
-
-<!--
-Example command:
-
-  ```bash
-- bundle install
-- npm install
+```sh
+npm install
 ```
---->
 
-### Usage
+### 💾 Database
 
-  Create Database (Mandatory)
+Create the databases and run migrations with:
 
-```bash
+```sh
 rails db:create
-rails db:schema:load
-```
-
-If you have made a migration the run this command
-
-```bash
 rails db:migrate
-rails s
-``` 
-<!--
-Example command:
+```
+
+To load the sample data, run:
 
 ```sh
-  rails server
-  yarn build --watch
+rails db:seed
 ```
---->
 
-### Run tests
+### 💻 Usage
 
-To run tests, run the following command:
-
-<!--
-
- ```bash
-rspec
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
+To run the development server, execute the following command:
 
 ```sh
-Heroku
-
+rails server
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 👨‍🚀 Author  <a name="author"></a>
 
-## 👥 Author <a name="authors"></a>
+I am always looking for ways to improve my project. If you have any suggestions or ideas, I would love to hear from you.
 
+**Hein Thant**
 👤 **Uchechi Nwaka**
 
 - GitHub: [@uchexm](https://github.com/uchexm)
@@ -169,67 +115,33 @@ Heroku
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+## 🎯 Future Features  <a name="future-features"></a>
 
-## 🔭 Future Features <a name="future-features"></a>
+- [ ] Add more endpoints
+- [ ] Add date and time
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🤝 Contribution  <a name="contribution"></a>
 
-- Add more endpoints
-- Display Date and Time
+Contributions, issues, and feature requests are welcome! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+## 💖 Show Your Support  <a name="support"></a>
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/uchexm/hello-rails-react/issues.)
+If you like this project, please consider giving it a ⭐.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+## 🙏 Acknowledgements
 
-## ⭐️ Show your support <a name="support"></a>
-
-
-If you like this project...
-
-Give a ⭐️ if you like this project!
+I would like to thank all code reviewers for making this project better.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I ascribe all Glory to the Almighty God.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Rails and React is not soo difficult to learn]**
-
-  - [You need to be conversant with the necessary GEMS]
-
-- **[BUilding Rails API to an existing app]**
-
-  - [Create a new API controller with its route config in routes.rb]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
+## 📜 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
